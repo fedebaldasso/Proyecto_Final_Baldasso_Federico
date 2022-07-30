@@ -8,8 +8,29 @@
     margin-right: 0.5em;
 }
 
+#Linkedin{
+    margin: 10px;
+}
+
+#Twitter{
+    margin: 10px;
+}
+
+#Instagram{
+    margin: 10px;
+}
+
+#GitHub{
+    margin: 10px;
+}
+
+#Facebook{
+    margin: 10px;
+}
+
 #logoAP {
     width: 150px;
+    margin: 10px;
 }
 
 img {
@@ -18,6 +39,9 @@ img {
 
 .btn {
     border-width: medium;
+    border-color: #64ffda;
+    color: #64ffda;
+    margin: 10px;
 }
 
 /*Para la vista de celular*/

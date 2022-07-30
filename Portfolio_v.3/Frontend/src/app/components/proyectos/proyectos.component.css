@@ -1,17 +1,38 @@
 .row {
+    height: 350px;
     padding: 20px;
-    background-color: #a1b5cb;
+    background-color: #0a192f;
+    color: #64ffda;
 }
 
-.contenedor {
-    width: auto;
+h1 {
+    position: absolute;
+   
 }
 
-.parte1, .parte2 {
+h2 {
+    position: relative;
+    top: 70px;
+    left: 10%;
+}
+
+p {
+    position: relative;
+    top: 70px;
+    left: 15%;
+    margin-top: 20px;
+}
+
+.parte1, .parte2, .parte3 {
     display: inline-block;
     text-align: justify;
 }
 
 .img-proyecto {
+    height: 200px;
+    width: 400px;
     box-shadow: 10px 10px 30px #000000;
+    position: relative;
+    top: 70px;
+    
 }
