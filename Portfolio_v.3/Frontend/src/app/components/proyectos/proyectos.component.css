@@ -5,6 +5,10 @@
     color: #64ffda;
 }
 
+.contenedor {
+    width: auto;
+}
+
 h1 {
     position: absolute;
    
@@ -31,8 +35,8 @@ p {
 .img-proyecto {
     height: 200px;
     width: 400px;
-    box-shadow: 10px 10px 30px #000000;
+    box-shadow: 10px 10px 30px #64ffda;
     position: relative;
-    top: 70px;
+    /* top: 70px; */
     
 }
