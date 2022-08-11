@@ -44,6 +44,11 @@ img {
     margin: 10px;
 }
 
+a img:hover {
+    background-color:#a8b2d1;
+    border-radius: 50%; 
+  }
+
 /*Para la vista de celular*/
 
 @media (max-width: 575px) {

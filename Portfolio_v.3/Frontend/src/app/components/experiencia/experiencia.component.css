@@ -15,12 +15,15 @@ td {
 h1 {
     display: inline;
     /* position: absolute; */
+    margin-left: 20px;
+    font-style: oblique;    
     
 }
 
 
 h3 {
     display: inline;
+    color: #ccd6f6;
     
 }
 

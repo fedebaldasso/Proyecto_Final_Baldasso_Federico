@@ -1,6 +1,6 @@
 .row {
     padding: 20px;
-    height: 300px;
+    height: 350px;
 }
 
 div {
@@ -9,8 +9,18 @@ div {
     color: #64ffda;
 }
 
+#nombre {
+    color: #64ffda;
+}
+
+h1 {
+    font-style: oblique;
+    margin-top: 30px;
+}
+
 p {
     text-align: justify;
+    color: #8892b0;
 }
 
 /*estilo de la foto de la perfil*/
