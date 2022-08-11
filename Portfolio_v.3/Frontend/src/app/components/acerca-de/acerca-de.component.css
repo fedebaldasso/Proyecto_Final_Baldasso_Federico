@@ -20,7 +20,7 @@ h1 {
 
 p {
     text-align: justify;
-    color: #8892b0;
+    color: #ccd6f6;
 }
 
 /*estilo de la foto de la perfil*/
@@ -62,4 +62,5 @@ p {
     position: absolute;
     left: 7%;
     top: -40px;
+    color: #ccd6f6;
 }
