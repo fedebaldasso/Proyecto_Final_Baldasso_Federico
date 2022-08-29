@@ -16,8 +16,11 @@ h1 {
     display: inline;
     /* position: absolute; */
     margin-left: 20px;
-    font-style: oblique; 
-    
+    font-style: oblique;    
+}
+
+h2 {
+    margin-left: 20px;
 }
 
 
