@@ -4,16 +4,15 @@ import { Observable } from 'rxjs';
 import { persona } from '../model/persona.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class PersonaService {
   // URL = 'http://localhost:8080/personas/';
-  URL = 'https://back-my-portfolio.herokuapp.com/personas/';
+  URL = 'https://backendfgb.onrender.com/personas/';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
-  public getPersona(): Observable<persona>{
+  public getPersona(): Observable<persona> {
     return this.http.get<persona>(this.URL + 'traer/perfil');
-    
   }
 }

@@ -4,33 +4,31 @@ import { Observable } from 'rxjs';
 import { Educación } from '../model/educación';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class EducaciónService {
   // URL = 'http://localhost:8080/educación/';
-  URL = 'https://back-my-portfolio.herokuapp.com/educación/';
+  URL = 'https://backendfgb.onrender.com/educación/';
 
+  constructor(private httpClient: HttpClient) {}
 
-  constructor(private httpClient : HttpClient) { }
-
-  public lista(): Observable<Educación[]>{
+  public lista(): Observable<Educación[]> {
     return this.httpClient.get<Educación[]>(this.URL + 'lista');
   }
 
-  public detail(id: number): Observable<Educación>{
+  public detail(id: number): Observable<Educación> {
     return this.httpClient.get<Educación>(this.URL + `detail/${id}`);
   }
 
-  public save(educación: Educación): Observable<any>{
+  public save(educación: Educación): Observable<any> {
     return this.httpClient.post<any>(this.URL + 'create', educación);
   }
 
-  public update(id: number, educación: Educación): Observable<any>{
+  public update(id: number, educación: Educación): Observable<any> {
     return this.httpClient.put<any>(this.URL + `update/${id}`, educación);
   }
 
-  public delete(id: number): Observable<any>{
+  public delete(id: number): Observable<any> {
     return this.httpClient.delete<any>(this.URL + `delete/${id}`);
   }
-
 }
