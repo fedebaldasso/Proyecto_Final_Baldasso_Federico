@@ -1,19 +1,18 @@
 .row {
-    background-color: #0a192f;
-    color: #64ffda;
-    /* padding: 20px; */
-    height: 800px;    
+  background-color: #0a192f;
+  color: #64ffda;
+  padding: 20px;
+  height: 800px;
 }
 
 h1 {
-    position: absolute;
-    font-style: oblique;
-    margin-left: 20px;
-    margin-bottom: 40px;
-    
+  position: absolute;
+  font-style: oblique;
+  margin-left: 20px;
+  margin-bottom: 40px;
 }
 
 .circle {
-    margin-top: 20px;    
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
